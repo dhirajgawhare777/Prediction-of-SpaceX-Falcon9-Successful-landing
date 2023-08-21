@@ -1,0 +1,46 @@
+*****************************************
+# SpaceX Falcon 9 Dataset Analysis
+*******************************************
+
+
+
+This project aims to analyze the SpaceX Falcon 9 dataset using various data analysis and machine learning techniques.
+
+## Overview
+
+The SpaceX Falcon 9 dataset contains information about Falcon 9 rocket launches, including attributes like launch success, mission details, and more. This analysis includes Exploratory Data Analysis (EDA), feature engineering, interactive visualizations, and the implementation of machine learning models.
+
+## Project Structure
+
+- `data/`: Directory containing the dataset files.
+- `notebooks/`: Jupyter notebooks for different stages of the analysis.
+- `visualizations/`: Interactive visualizations created using Folium and Plotly.
+- `models/`: Implementation of machine learning models.
+- `README.md`: Project overview, instructions, and information.
+
+## Steps
+
+1. **Exploratory Data Analysis (EDA)**: Understand the dataset, check for missing values, and gain initial insights into key features.
+
+2. **Feature Engineering**: Enhance the dataset by creating new features and transforming existing ones to improve model performance.
+
+3. **Interactive Visualizations**: Utilize Folium and Plotly to create interactive visualizations showcasing launch success, geographical distribution, and more.
+
+4. **Machine Learning Models**: Implement SVM, Logistic Regression, Decision Trees, and KNN algorithms to predict launch success.
+
+5. **Model Evaluation**: Evaluate model performance using accuracy scores and identify the most accurate model.
+
+6. **Hyperparameter Tuning**: Fine-tune the Decision Tree model using GridsearchCV to achieve the best possible accuracy.
+
+## Results
+
+The analysis resulted in the following findings:
+- SVM accuracy: 84%
+- Logistic Regression accuracy: 83%
+- Decision Tree accuracy: 87%
+- KNN accuracy: 84%
+- After hyperparameter tuning, Decision Tree achieved a maximum accuracy of 87%.
+
+## Usage
+
+1. Clone this repository:
